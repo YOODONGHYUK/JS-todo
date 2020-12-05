@@ -1,0 +1,15 @@
+.js-clock h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.form,
+.greetings {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+}
+
+.showing {
+    display: block;
+}
