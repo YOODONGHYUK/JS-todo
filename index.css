@@ -1,24 +1,12 @@
+/* COMMON */
 body {
     background-color: black;
 }
 
-.js-clock h1{
-    font-size: 100px;
-    color: white;
-    text-shadow: 1px 1px black;
-    text-align: center;
+.body__container {
+    
 }
 
-.form,
-.greetings {
-    display: none;
-    text-align: center;
-    font-size: 50px;
-}
-
-.showing {
-    display: block;
-}
 
 @keyframes fadeIn {
     from {
@@ -39,3 +27,91 @@ body {
     animation: fadeIn .5s linear;
 }
 
+/* CLOCK */
+.js-clock h1{
+    margin-top: 20vh;
+    margin-bottom: 0;
+    font-size: 100px;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+input::-webkit-input-placeholder{
+    color: grey;
+}
+
+/* GREETINGS */
+.form,
+.greetings {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+}
+
+.askName {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.js-nameInput {
+    width: 400px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+/* TO DO */
+.js-toDoForm {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.askTodo {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 30px;
+}
+
+.js-toDoInput {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: 50px;
+    text-align: center;
+}
+
+.js-toDoList {
+    width: 50vh;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/* WEATHER */
+.js-weather {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.showing {
+    display: block;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

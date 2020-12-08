@@ -11,21 +11,27 @@
     <script defer src="weather.js"></script>
 </head>
 <body>
-    <div class="js-clock">
-        <h1>00:00</h1>
-    </div>
+    <div class="body__container">
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
 
-    <form class="js-form form">
-        <input type="text" placeholder="what is your name?">
-    </form>
-    
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do">
-    </form>
-    <ul class="js-toDoList">
-    </ul>
-    
-    <span class="js-weather"></span>
+        <form class="js-form form">
+            <div class="askName">what is your name?</div>
+            <input type="text" class="js-nameInput" placeholder="________"> 
+        </form>
+        
+        <h4 class="js-greetings greetings"></h4>
+
+        <form class="js-toDoForm">
+            <div class="askTodo">- Write a to do -</div>
+            <input type="text" class="js-toDoInput" placeholder="_______________">
+        </form>
+
+        <ul class="js-toDoList" style="list-style: none;">
+        </ul>
+        
+        <span class="js-weather"></span>
+    </div>
 </body>
 </html>
