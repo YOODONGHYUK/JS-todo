@@ -3,7 +3,7 @@
 A clone of the productivity chrome app Momentum on Vanilla JS
 
 ## Link
-https://yoodonghyuk.github.io/JS-todo/
+https://donghyuk-yoo.github.io/JS-todo/
 
 ### Features
 
